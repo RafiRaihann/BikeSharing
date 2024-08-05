@@ -7,8 +7,8 @@ import streamlit as st
 sns.set_theme(style='dark')
 
 # Memuat dataset
-day_df = pd.read_csv("https://raw.github.com/RafiRaihann/BikeSharing/blob/main/day.csv")
-hour_df = pd.read_csv("https://raw.github.com/RafiRaihann/BikeSharing/blob/main/hour.csv")
+day_df = pd.read_csv("https://raw.githubusercontent.com/RafiRaihann/BikeSharing/main/day.csv")
+hour_df = pd.read_csv("https://raw.githubusercontent.com/RafiRaihann/BikeSharing/main/hour.csv")
 
 # Filter data
 hari_kerja = day_df[day_df['workingday'] == 1]
