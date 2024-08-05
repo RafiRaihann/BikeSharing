@@ -25,8 +25,7 @@ st.pyplot(fig_histogram)
 # Informasi Pribadi di Sidebar
 st.sidebar.subheader("Informasi Pribadi")
 st.sidebar.text("Nama: Rafi Raihan")
-st.sidebar.text("Email: m299d4ky2948@bangkit.academy")
-st.sidebar.text("ID Dicoding: rafi_raihan_r1IS")
+st.sidebar.text("Email: rafiraihan998@gmail.com")
 
 # Penggunaan fungsi pembantu tanpa sidebar
 selected_data = hour_df  # Menggunakan data harian tanpa memilih tipe hari
